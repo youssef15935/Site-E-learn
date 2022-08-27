@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+body{
+    position: relative;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;    
+}
+
+.navlinks li {
+    transition: all 0.3s ease 0s;
+    padding: 70px;
+    
+}
+.navlinks li a:hover {
+    color: #0088a9;
+    
+}
+#i100{
+padding-right: 50px;
+font-family:"Montserrat", sans-serif; 
+}
+#i100 :hover{
+    text-decoration: underline;
+}
+button :hover{
+    background-color: rgba(0,136,169,0.8);
+
+}
+
+h4{
+    font-family: "Montserrat", sans-serif;
+    color:#edf0f1;
+    padding: 50px 40px ;
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+}
+
+.container-1{
+    display: flex;
+   
+    padding: 10%;
+    
+
+}
+p{
+    margin-top: 10%;
+}
+.container-1 div{
+    border: 2px solid #edf0f1;
+    padding: 1px;
+    margin: 10px;
+    width: 200px;
+}
+.box-1{
+    flex: 1;
+    color:#edf0f1;
+    font-family: "Montserrat",sans-serif;
+    min-height: 400px;
+    text-align: center;
+    background-color: #FA6B4C;
+    transition: 1s;
+}
+.box-2{
+    flex: 1;
+    color: #edf0f1;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    background-color:#3A73F9;
+    transition: 1s;
+    
+}
+.box-3{
+    flex: 1;
+    color: #edf0f1;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    background-color: cornflowerblue;
+    transition: 1s;
+    
+}
+.container-2{
+    display: flex;
+
+    padding: 10%;
+}
+.container-2 div{
+    border: 2px solid #edf0f1;
+    padding: 1px;
+    margin: 10px;
+    width: 200px;
+}
+.box-4{
+    flex: 1;
+    color:#edf0f1;
+    font-family: "Montserrat",sans-serif;
+    min-height: 400px;
+    text-align: center;
+    background-color: #FFEF00;
+    transition: 1s;
+    
+}
+.box-5{
+    flex: 1;
+    color: #edf0f1;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    background-color:#696969;
+    transition: 1s;
+    
+}
+.box-6{
+    flex: 1;
+    color: #edf0f1;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    background-color: orange;  
+    transition: 1s;
+    
+}
+.footer{
+font-family:'Ubuntu', sans-serif;
+position: relative;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  color: white;
+  text-align: center; 
+ top: 220px;
+}
+.search-box{
+    position: absolute;
+    left: 84%;
+    transform: translate(-50%,-50%);
+    background:rgba(0,136,169,1);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    top: 50px;
+    
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0px,6px;
+}
+.search-btn{
+    float: right;
+ width: 20px;
+ height: 20px;
+ border-radius: 50%;
+ background: #24252A;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: white;
+ cursor: pointer;
+ 
+}
+.search-txt{
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    transition: 0.4s;
+    width: 0px;
+}
+.i1{
+    position: absolute;
+    
+    border: 0px;
+}
+
+.box-1:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1;
+}
+.box-2:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1;
+}
+.box-3:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1;
+}
+.box-4:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1;
+}
+.box-5:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1;
+}
+.box-6:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1;
+}
+#i1{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i2{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i3{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i4{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i5{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i6{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i7{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i8{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i9{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i10{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i11{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i12{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i13{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i14{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i15{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+
+#i16{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i17{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i18{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#i19{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i20{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i21{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#i22{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+.container
+{
+    width: 600px;
+    border: 5px solid white;
+    padding: 15px 10px;
+    font-family:"Montserrat",sans-serif;
+    color: white;
+}
+.container h2
+{
+    text-align: center;
+    margin-bottom: 15px
+}
+textarea
+{
+    height: 20px;
+    width: 100%;
+    border: white;
+    border-bottom: solid white;
+    background-color: white;
+    margin-bottom: 20px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+
+input[type="submit"], button
+{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="submit"]
+{
+    color: #fff;
+    background-color: rgba(0,136,169,1);
+    height: 40px;
+}
+#clear
+{
+    color: white;
+    
+    height: 40px
+
+}
+#wholebox{
+     padding-left:900px;
+     padding-top: 5px;   
+}
+#wholebox :hover{
+    color: grey;
+    border-color: grey;
+}
+#a1{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#a2{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#a3{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#a4{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#a5{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#a6{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#b1{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#b2{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#b3{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#b4{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#b5{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#b6{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#b7{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#b8{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#c1{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#c2{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#c3{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#c4{
+    margin: 30px;
+    margin-left: 80px;
+    
+}#c5{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#c6{
+    margin: 30px;
+    margin-left: 80px;
+    
+}
+#header4{
+text-align: center;
+padding-top: 100px;
+}
+@media only screen and (max-width: 1100px)
+{
+    #header4{
+        width: 900px;
+        float: left;
+        padding-left: 400px;
+      
+        }
+#logo1{
+    position: absolute;
+    left: 10x;
+    top:  100px;
+}
+.navlinks{
+    position: absolute;
+    left:300px;
+    display: flex;
+}
+#i100{
+    position: absolute;
+    left:1000px;
+}
+.search-box{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+.container{
+    position: absolute;
+    left: 250px;}
+#footer{
+    position: absolute;
+    top: 1000px;
+
+}
+.container-1{
+width: 1160px;
+}
+.container-2{
+    width: 1160px;
+    }
+
+}
+
+
